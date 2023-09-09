@@ -1,0 +1,14 @@
+body{
+    margin:0px;
+    background-color: rgb(84, 82, 82);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:60px 60px 60px 240px;
+    justify-items: center;
+    align-items: center;
+}
+button{
+    height: 50px;
+    width: 200px;
+    border-radius: 6px;
+}
