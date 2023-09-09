@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const myLibrary = [];
-
+    let submit_button = document.getElementById('1');
     function Book(title, author, noofpages, read) {
         this.title = title;
         this.author = author;
@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function() {
         this.read = read;
     }
 
-    let submit_button = document.getElementById('1');
+    
 
     submit_button.addEventListener('click', function(event) {
         event.preventDefault();
